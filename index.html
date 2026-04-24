@@ -1,22 +1,23 @@
-<!DOCTYPE html>
-<html lang="ro">
-<head>
+<html lang="ro"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acoperișuri rezistente - Montaj și reparații | Compania ta de încredere</title>
+    <!-- Optimizare SEO (Titlu și Meta Descriere) -->
+    <title>Acoperișuri Titan</title>
+    <meta name="description" content="Ai nevoie de un acoperiș nou sau de reparații urgente? Echipa Acoperișuri Titan oferă servicii profesionale de montaj, reparații și izolații pentru acoperișuri rezistente. Cere o ofertă gratuită!">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
             color: #1a202c;
         }
         .hero {
-            background-image: url('https://placehold.co/1920x1080/4a5568/ffffff?text=Acoperi%C8%99+nou+montat');
+            background-image: url('Image1.jpeg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -34,8 +35,21 @@
             transform: translateX(-50%);
             width: 60px;
             height: 4px;
-            background-color: #2b6cb0;
+            background-color: #0369a1; /* Culoare asortată cu logo-ul Titan */
             border-radius: 9999px;
+        }
+        .brand-text {
+            color: #0369a1 !important; /* Culoare asortată cu logo-ul Titan */
+        }
+        .btn-brand {
+            background-color: #0369a1;
+            border-color: #0369a1;
+            color: white;
+        }
+        .btn-brand:hover {
+            background-color: #0284c7;
+            border-color: #0284c7;
+            color: white;
         }
     </style>
 </head>
@@ -45,8 +59,13 @@
     <header class="bg-white shadow-sm sticky-top z-3">
         <nav class="navbar navbar-expand-md navbar-light bg-white container">
             <a class="navbar-brand d-flex align-items-center" href="#acasa">
-                <img src="https://placehold.co/50x50/3182ce/ffffff?text=Logo" alt="Logo companie" class="rounded-circle me-2">
-                <span class="fs-4 fw-bold text-primary">Acoperișuri România</span>
+                <!-- LOGO SVG AICI -->
+                <svg width="45" height="45" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="me-2">
+                    <polygon points="50,15 95,55 85,65 50,35 15,65 5,55" fill="#0ea5e9"></polygon>
+                    <polygon points="50,35 85,65 75,75 50,55 25,75 15,65" fill="#0284c7"></polygon>
+                    <polygon points="50,55 75,75 65,85 50,75 35,85 25,75" fill="#0369a1"></polygon>
+                </svg>
+                <span class="fs-4 fw-bold brand-text">Acoperișuri Titan</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -69,7 +88,7 @@
                         <a class="nav-link text-secondary" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <a href="#contact" class="btn btn-primary rounded-pill fw-semibold ms-3 px-4 py-2 shadow">Cere ofertă</a>
+                <a href="tel:+40745565422" class="btn btn-brand rounded-pill fw-semibold ms-3 px-4 py-2 shadow">0745 565 422</a>
             </div>
         </nav>
     </header>
@@ -82,10 +101,6 @@
                 <div class="bg-dark bg-opacity-50 p-5 rounded-4 shadow-lg mx-auto" style="max-width: 900px;">
                     <h1 class="display-4 fw-extrabold mb-3">Acoperișuri rezistente, lucrate cu profesionalism.</h1>
                     <p class="h5 fw-medium mb-4">Peste 15 ani de experiență în montaj și reparații acoperișuri durabile.</p>
-                    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
-                        <a href="#contact" class="btn btn-success rounded-pill fw-bold py-3 px-5 me-sm-3 mb-3 mb-sm-0 shadow-lg">Cere ofertă gratuită</a>
-                        <a href="tel:+40712345678" class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Sună acum</a>
-                    </div>
                 </div>
             </section>
 
@@ -97,19 +112,19 @@
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <div class="card p-4 rounded-4 h-100 shadow border-0">
-                                <h3 class="h4 fw-semibold mb-2 text-primary">Montaj Acoperișuri</h3>
+                                <h3 class="h4 fw-semibold mb-2 brand-text">Montaj Acoperișuri</h3>
                                 <p class="text-secondary">Instalăm acoperișuri noi cu materiale de top, garantând rezistență și estetică impecabilă.</p>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card p-4 rounded-4 h-100 shadow border-0">
-                                <h3 class="h4 fw-semibold mb-2 text-primary">Reparații rapide</h3>
+                                <h3 class="h4 fw-semibold mb-2 brand-text">Reparații rapide</h3>
                                 <p class="text-secondary">Intervenim prompt pentru a remedia orice problemă, de la infiltrații la structuri deteriorate.</p>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card p-4 rounded-4 h-100 shadow border-0">
-                                <h3 class="h4 fw-semibold mb-2 text-primary">Izolații și întreținere</h3>
+                                <h3 class="h4 fw-semibold mb-2 brand-text">Izolații și întreținere</h3>
                                 <p class="text-secondary">Asigurăm izolația termică și hidroizolația corectă, prelungind viața acoperișului tău.</p>
                             </div>
                         </div>
@@ -124,15 +139,15 @@
                 <h2 class="text-center display-5 fw-bold section-title mx-auto mb-5">Despre noi</h2>
                 <div class="row align-items-center">
                     <div class="col-md-6 mb-4 mb-md-0">
-                        <img src="https://placehold.co/800x600/3182ce/ffffff?text=Echipa+la+lucru" alt="Echipa de acoperișuri" class="img-fluid rounded-4 shadow-lg">
+                        <img src="Image2.jpeg" alt="Echipa Acoperișuri Titan la lucru pe șantier" class="img-fluid rounded-4 shadow-lg">
                     </div>
                     <div class="col-md-6">
                         <h3 class="h3 fw-bold mb-3 text-secondary">Povestea noastră</h3>
-                        <p class="text-secondary mb-3">Cu o experiență de peste 15 ani în domeniu, am construit o reputație solidă bazată pe **calitate, onestitate și respect** față de client. Misiunea noastră este să oferim soluții de acoperiș durabile, sigure și estetice, folosind cele mai bune materiale și tehnici de lucru.</p>
+                        <p class="text-secondary mb-3">La <strong>Acoperișuri Titan</strong>, ne mândrim cu o experiență de peste 15 ani. Am construit o reputație solidă bazată pe calitate, onestitate și respect față de client. Misiunea noastră este să oferim soluții de acoperiș durabile, sigure și estetice.</p>
                         <h3 class="h3 fw-bold mt-4 mb-3 text-secondary">De ce să ne alegi?</h3>
                         <ul class="text-secondary">
                             <li>Experiență vastă și profesionalism.</li>
-                            <li>Garanție pentru lucrările executate.</li>
+                            <li>Garanție extinsă pentru lucrările executate.</li>
                             <li>Utilizăm doar materiale certificate de la producători de top.</li>
                             <li>Prețuri transparente și oferte personalizate.</li>
                         </ul>
@@ -146,22 +161,22 @@
             <div class="container text-center">
                 <h2 class="display-5 fw-bold section-title mx-auto mb-5">Serviciile noastre</h2>
                 <div class="row g-4 text-start">
-                    <!-- Serviciul 1: Montaj Acoperișuri Noi -->
+                    <!-- Serviciul 1 -->
                     <div class="col-md-6">
                         <div class="card p-4 rounded-4 h-100 shadow border-0">
-                            <img src="https://placehold.co/600x400/5a67d8/ffffff?text=Montaj+Acoperi%C8%99+Nou" alt="Imagine montaj acoperiș" class="card-img-top rounded-4 mb-4">
+                            <img src="Image3.jpeg" alt="Montaj acoperiș nou din țiglă metalică" class="card-img-top rounded-4 mb-4">
                             <h3 class="h4 fw-bold text-secondary mb-2">Montaj acoperișuri noi</h3>
-                            <p class="card-text text-secondary mb-3">Realizăm acoperișuri complete, de la structura de bază la finisaje, folosind materiale precum țiglă ceramică, tablă cutată, tablă tip țiglă sau șindrilă bituminoasă. Vă ajutăm să alegeți soluția optimă pentru locuința sau afacerea dumneavoastră.</p>
-                            <a href="#contact" class="btn btn-primary rounded-pill fw-semibold mt-auto">Solicită ofertă</a>
+                            <p class="card-text text-secondary mb-3">Realizăm acoperișuri complete, de la structura de bază la finisaje, folosind țiglă ceramică, tablă cutată, tablă tip țiglă sau șindrilă bituminoasă. Vă ajutăm să alegeți soluția optimă.</p>
+                            
                         </div>
                     </div>
-                    <!-- Serviciul 2: Reparații Acoperișuri -->
+                    <!-- Serviciul 2 -->
                     <div class="col-md-6">
                         <div class="card p-4 rounded-4 h-100 shadow border-0">
-                            <img src="https://placehold.co/600x400/9f7aea/ffffff?text=Repara%C8%9Bie+Acoperi%C8%99" alt="Imagine reparație acoperiș" class="card-img-top rounded-4 mb-4">
+                            <img src="Image4.jpeg" alt="Reparație de urgență la acoperiș cu infiltrații" class="card-img-top rounded-4 mb-4">
                             <h3 class="h4 fw-bold text-secondary mb-2">Reparații acoperișuri</h3>
-                            <p class="card-text text-secondary mb-3">Intervenim rapid pentru a rezolva problemele urgente cauzate de intemperii, infiltrații sau alte deteriorări. Ne ocupăm de înlocuirea țiglelor sparte, repararea structurilor de lemn și refacerea hidroizolației.</p>
-                            <a href="#contact" class="btn btn-primary rounded-pill fw-semibold mt-auto">Solicită ofertă</a>
+                            <p class="card-text text-secondary mb-3">Intervenim rapid pentru a rezolva problemele urgente cauzate de intemperii, infiltrații sau deteriorări. Înlocuim țiglele sparte, reparăm structurile de lemn și refacem hidroizolația.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -176,7 +191,7 @@
                     <!-- Caz de succes 1 -->
                     <div class="col">
                         <div class="card h-100 rounded-4 shadow border-0 overflow-hidden">
-                            <img src="https://placehold.co/600x400/ed8936/ffffff?text=Proiect+1" alt="Proiect de succes" class="card-img-top" style="height: 200px; object-fit: cover;">
+                            <img src="Image5.jpeg" alt="Renovare acoperiș casă veche în Brașov" class="card-img-top" style="height: 200px; object-fit: cover;">
                             <div class="card-body">
                                 <h3 class="h5 fw-semibold mb-2 text-secondary">Renovare acoperiș casă veche</h3>
                                 <p class="card-text text-secondary">Am transformat un acoperiș deteriorat într-o structură modernă și rezistentă, crescând valoarea proprietății.</p>
@@ -186,9 +201,9 @@
                     <!-- Caz de succes 2 -->
                     <div class="col">
                         <div class="card h-100 rounded-4 shadow border-0 overflow-hidden">
-                            <img src="https://placehold.co/600x400/48bb78/ffffff?text=Proiect+2" alt="Proiect de succes" class="card-img-top" style="height: 200px; object-fit: cover;">
+                            <img src="Image6.jpeg" alt="Montaj acoperiș hală industrială" class="card-img-top" style="height: 200px; object-fit: cover;">
                             <div class="card-body">
-                                <h3 class="h5 fw-semibold mb-2 text-secondary">Montaj acoperiș hală industrială</h3>
+                                <h3 class="h5 fw-semibold mb-2 text-secondary">Montaj acoperiș hală</h3>
                                 <p class="card-text text-secondary">Am finalizat un proiect amplu pentru o hală industrială, respectând termenele limită și standardele de siguranță.</p>
                             </div>
                         </div>
@@ -196,19 +211,19 @@
                     <!-- Caz de succes 3 -->
                     <div class="col">
                         <div class="card h-100 rounded-4 shadow border-0 overflow-hidden">
-                            <img src="https://placehold.co/600x400/f6ad55/ffffff?text=Proiect+3" alt="Proiect de succes" class="card-img-top" style="height: 200px; object-fit: cover;">
+                            <img src="Image7.jpeg" alt="Izolație termică la un bloc de locuințe" class="card-img-top" style="height: 200px; object-fit: cover;">
                             <div class="card-body">
-                                <h3 class="h5 fw-semibold mb-2 text-secondary">Izolație termică la un bloc de locuințe</h3>
+                                <h3 class="h5 fw-semibold mb-2 text-secondary">Izolație termică bloc</h3>
                                 <p class="card-text text-secondary">Am asigurat o izolație superioară, contribuind la reducerea costurilor de încălzire pentru toți locatarii.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn btn-primary rounded-pill fw-semibold mt-5 px-5 py-3 shadow-lg">Vezi portofoliul complet</a>
+                
             </div>
         </div>
         
-        <!-- Secțiunea Testimoniale (scurte) -->
+        <!-- Secțiunea Testimoniale -->
         <section class="py-5 bg-white">
             <div class="container text-center">
                 <h2 class="display-5 fw-bold mb-4">Ce spun clienții noștri</h2>
@@ -232,7 +247,7 @@
         </section>
 
         <!-- CTA Final -->
-        <section class="py-5 bg-primary text-white text-center">
+        <section class="py-5 text-white text-center" style="background-color: #0369a1;">
             <div class="container">
                 <h2 class="display-5 fw-bold mb-3">Gata să-ți protejezi casa?</h2>
                 <p class="lead mb-4">Contactează-ne pentru o evaluare gratuită și o ofertă personalizată.</p>
@@ -242,56 +257,23 @@
 
         <!-- Pagina Contact -->
         <div id="contact" class="py-5 bg-white">
-            <div class="container">
-                <h2 class="display-5 fw-bold section-title mx-auto mb-5 text-center">Contactează-ne</h2>
-                <div class="row">
-                    <!-- Formular -->
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <div class="card p-4 rounded-4 shadow-lg border-0 bg-light h-100">
-                            <h3 class="h4 fw-bold mb-4 text-secondary">Cere o ofertă gratuită</h3>
-                            <form onsubmit="event.preventDefault(); alert('Formular trimis cu succes!');">
-                                <div class="mb-3">
-                                    <label for="nume" class="form-label fw-semibold text-secondary">Nume complet</label>
-                                    <input type="text" class="form-control rounded-3" id="nume" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="telefon" class="form-label fw-semibold text-secondary">Telefon</label>
-                                    <input type="tel" class="form-control rounded-3" id="telefon" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="locatie" class="form-label fw-semibold text-secondary">Adresa/Locație</label>
-                                    <input type="text" class="form-control rounded-3" id="locatie" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="serviciu" class="form-label fw-semibold text-secondary">Tip serviciu</label>
-                                    <select id="serviciu" class="form-select rounded-3">
-                                        <option value="">Alege un serviciu...</option>
-                                        <option value="montaj">Montaj acoperiș nou</option>
-                                        <option value="reparatii">Reparații acoperiș</option>
-                                        <option value="izolatii">Izolații</option>
-                                        <option value="intretinere">Întreținere periodică</option>
-                                        <option value="altele">Altele</option>
-                                    </select>
-                                </div>
-                                <button type="submit" class="btn btn-primary fw-bold rounded-3 w-100 mt-2">Trimite</button>
-                            </form>
-                        </div>
-                    </div>
-
-                    <!-- Detalii contact și hartă -->
+            <div class="container ">
+                <h2 class="display-5 fw-bold section-title mx-auto mb-5 d-block text-center">Contactează-ne</h2>
+                
+                <div class="row justify-content-center">
                     <div class="col-md-6">
                         <div class="card p-4 rounded-4 shadow-lg border-0 bg-light h-100">
                             <h3 class="h4 fw-bold mb-4 text-secondary">Date de contact</h3>
-                            <p class="text-secondary mb-2"><strong>Telefon:</strong> <a href="tel:+40712345678" class="text-primary text-decoration-underline">+40 712 345 678</a></p>
-                            <p class="text-secondary mb-2"><strong>Email:</strong> <a href="mailto:contact@acoperisuri.ro" class="text-primary text-decoration-underline">contact@acoperisuri.ro</a></p>
-                            <p class="text-secondary mb-4"><strong>Adresă:</strong> Strada Exemplu, nr. 1, Brașov, România</p>
+                            <p class="text-secondary mb-2"><strong>Telefon:</strong> <a href="tel:+40745565422" class="brand-text text-decoration-underline">+40 745 565 422</a></p>
+                            <p class="text-secondary mb-2"><strong>Email:</strong> <a href="mailto:contact@acoperisurititan.ro" class="brand-text text-decoration-underline">contact@acoperisurititan.ro</a></p>
+                            <p class="text-secondary mb-4"><strong>Adresă:</strong> Strada Exemplu, nr. 1, Braila, România</p>
                             <div class="rounded-4 overflow-hidden" style="height: 256px;">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2734.50970636592!2d25.5898800155986!3d45.642938879104045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b3558c73495f51%3A0xc6c7634f16b2a4c2!2sBra%C8%99ov%2C%20Rom%C3%A2nia!5e0!3m2!1sro!2sro!4v1628104523789!5m2!1sro!2sro" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619.9491440680614!2d27.974215032775682!3d45.27154328535568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b72917c570562d%3A0xcef44b94382aab82!2sCeasul%20Br%C4%83ilei!5e1!3m2!1sro!2sro!4v1777038213397!5m2!1sro!2sro" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
     </main>
 
@@ -299,31 +281,14 @@
     <footer class="bg-dark text-white-50 py-5 mt-5">
         <div class="container">
             <div class="row text-center text-md-start">
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <img src="https://placehold.co/50x50/3182ce/ffffff?text=Logo" alt="Logo" class="rounded-circle mx-auto d-block mb-3">
-                    <p>Soluții profesionale pentru acoperișuri durabile.</p>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <h3 class="h5 text-white fw-bold mb-3">Contact</h3>
-                    <p>Telefon: <a href="tel:+40712345678" class="text-decoration-underline text-white-50">+40 712 345 678</a></p>
-                    <p>Email: <a href="mailto:contact@acoperisuri.ro" class="text-decoration-underline text-white-50">contact@acoperisuri.ro</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="h5 text-white fw-bold mb-3">Social Media</h3>
-                    <div class="d-flex justify-content-center justify-content-md-start">
-                        <a href="#" class="text-white-50 me-3">Facebook</a>
-                        <a href="#" class="text-white-50 me-3">Instagram</a>
-                        <a href="#" class="text-white-50">LinkedIn</a>
-                    </div>
-                </div>
             </div>
             <div class="text-center text-secondary mt-5">
-                &copy; 2024 Acoperișuri România. Toate drepturile rezervate.
+                © 2026 Acoperișuri Titan. Toate drepturile rezervate.
             </div>
         </div>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-</html>
+
+</body></html>
